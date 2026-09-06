@@ -12,7 +12,7 @@ export default function Header() {
             <h1>Find-job.com</h1>
 
             <div className="nav-links">
-                <p onClick={() => handleNavigation('/')}>Home</p>
+                <p>Home</p>
 
                 <p onClick={() => handleNavigation('/jobs')}>Jobs</p>
 

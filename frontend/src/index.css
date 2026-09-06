@@ -112,9 +112,128 @@ header > .nav-links > p:hover {
    color: #ffffff;
    border: 1px solid #334155;
    width: 300px;
+   font-weight: bold;
    height: 30px;
 }
 
 .chooser-card > button:hover {
+    background-color: #818cf8;
+}
+
+.company-register-container {
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #1e293b;
+    width: 500px;
+    height: 500px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+    border: 1px solid #334155;
+    border-radius: 10px;
+}
+
+.company-register-container > label {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    color: #94a3b8
+}
+
+.company-register-container > label > input {
+    margin: 0;
+    padding: 5px;
+    background-color: #1e293b;
+    border: 1px solid #334155;
+    height: 20px;
+    color: #f1f5f9;
+}
+
+.company-register-container > label > input:focus {
+    border: 1px solid #6366f1;
+}
+
+.company-register-container > div {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.company-register-container > div > button {
+   margin: 0;
+   padding: 0;
+   background-color: #6366f1;
+   color: #ffffff;
+   border: 1px solid #334155;
+   width: 300px;
+   font-weight: bold;
+   height: 30px;
+}
+
+.company-register-container > div > button:hover {
+    background-color: #818cf8;
+}
+
+.worker-register-container {
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #1e293b;
+    width: 500px;
+    height: 500px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+    border: 1px solid #334155;
+    border-radius: 10px;
+}
+
+.worker-register-container > label {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    color: #94a3b8
+}
+
+.worker-register-container > label > input {
+    margin: 0;
+    padding: 5px;
+    background-color: #1e293b;
+    border: 1px solid #334155;
+    height: 20px;
+    color: #f1f5f9;
+}
+
+.worker-register-container > label > input:focus {
+    border: 1px solid #6366f1;
+}
+
+.worker-register-container > div {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.worker-register-container > div > button {
+   margin: 0;
+   padding: 0;
+   background-color: #6366f1;
+   color: #ffffff;
+   border: 1px solid #334155;
+   width: 300px;
+   font-weight: bold;
+   height: 30px;
+}
+
+.worker-register-container > div > button:hover {
     background-color: #818cf8;
 }
