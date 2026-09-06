@@ -1,6 +1,9 @@
 import { useState } from "react"
+import { useNavigate } from "react-router-dom";
 
 export default function CompanyRegister() {
+    const navigationObj = useNavigate();
+
     const [companyObj, setCompanyObj] = useState({
         companyName: '',
         pib: '',
@@ -16,6 +19,10 @@ export default function CompanyRegister() {
             ...prev,
             [name]: value
         }));
+    }
+
+    function handleRegistration() {
+        navigationObj('/login');
     }
 
     return (
@@ -69,7 +76,7 @@ export default function CompanyRegister() {
             </label>
 
             <div>
-                <button>REGISTER</button>
+                <button onClick={handleRegistration}>REGISTER</button>
             </div>
         </div>
     )

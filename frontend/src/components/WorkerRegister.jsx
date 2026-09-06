@@ -1,6 +1,9 @@
 import { useState } from "react"
+import { useNavigate } from "react-router-dom";
 
 export default function WorkerRegister() {
+    const navigationObj = useNavigate();
+
     const [workerObj, setWorkerObj] = useState({
         fullName: '',
         username: '',
@@ -17,6 +20,10 @@ export default function WorkerRegister() {
             ...prev,
             [name]: value
         }));
+    }
+
+    function handleRegistration() {
+        navigationObj('/login');
     }
 
     return (
@@ -82,7 +89,7 @@ export default function WorkerRegister() {
             </label>
 
             <div>
-                <button>LOGIN</button>
+                <button onClick={handleRegistration}>LOGIN</button>
             </div>
         </div>
     )
