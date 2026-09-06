@@ -237,3 +237,130 @@ header > .nav-links > p:hover {
 .worker-register-container > div > button:hover {
     background-color: #818cf8;
 }
+
+.login-container {
+    margin: 0;
+    padding: 0;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.worker-login-container {
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #1e293b;
+    width: 500px;
+    height: 500px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+    border: 1px solid #334155;
+    border-radius: 10px;
+}
+
+.worker-login-container > label {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    color: #94a3b8
+}
+
+.worker-login-container > label > input {
+    margin: 0;
+    padding: 5px;
+    background-color: #1e293b;
+    border: 1px solid #334155;
+    height: 20px;
+    color: #f1f5f9;
+}
+
+.worker-login-container > label > input:focus {
+    border: 1px solid #6366f1;
+}
+
+.worker-login-container > div {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.worker-login-container > div > button {
+   margin: 0;
+   padding: 0;
+   background-color: #6366f1;
+   color: #ffffff;
+   border: 1px solid #334155;
+   width: 300px;
+   font-weight: bold;
+   height: 30px;
+}
+
+.worker-login-container > div > button:hover {
+    background-color: #818cf8;
+}
+
+.company-login-container {
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #1e293b;
+    width: 500px;
+    height: 500px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+    border: 1px solid #334155;
+    border-radius: 10px;
+}
+
+.company-login-container > label {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    color: #94a3b8
+}
+
+.company-login-container > label > input {
+    margin: 0;
+    padding: 5px;
+    background-color: #1e293b;
+    border: 1px solid #334155;
+    height: 20px;
+    color: #f1f5f9;
+}
+
+.company-login-container > label > input:focus {
+    border: 1px solid #6366f1;
+}
+
+.company-login-container > div {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.company-login-container > div > button {
+   margin: 0;
+   padding: 0;
+   background-color: #6366f1;
+   color: #ffffff;
+   border: 1px solid #334155;
+   width: 300px;
+   font-weight: bold;
+   height: 30px;
+}
+
+.company-login-container > div > button:hover {
+    background-color: #818cf8;
+}
