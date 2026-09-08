@@ -12,15 +12,13 @@ export default function Header() {
             <h1>Find-job.com</h1>
 
             <div className="nav-links">
-                <p>Home</p>
+                <p onClick={() => handleNavigation('/')}>Home</p>
 
-                <p onClick={() => handleNavigation('/jobs')}>Jobs</p>
+                <p onClick={() => handleNavigation('/profile')}>Profile</p>
 
-                <p>Saved jobs</p>
+                <p onClick={() => handleNavigation('/login')}>Sign up</p>
 
-                <p>Profile</p>
-
-                <p onClick={() => handleNavigation('/sign-up')}>Sign up</p>
+                <p onClick={() => handleNavigation('/create-acc')}>Create account</p>
             </div>
         </header>
     )

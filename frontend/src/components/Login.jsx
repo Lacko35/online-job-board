@@ -7,7 +7,7 @@ export default function Login() {
     return (
         <div className="login-container">
             {
-                type === 'Worker'
+                type === 'worker'
                 ?
                 (
                     <WorkerLogin />
