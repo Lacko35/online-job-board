@@ -110,7 +110,7 @@ header > .nav-links > p:hover {
    padding: 0;
    background-color: #6366f1;
    color: #ffffff;
-   border: 1px solid #334155;
+   border: 1px solid #1E293B;
    width: 300px;
    font-weight: bold;
    height: 30px;
@@ -169,7 +169,7 @@ header > .nav-links > p:hover {
    padding: 0;
    background-color: #6366f1;
    color: #ffffff;
-   border: 1px solid #334155;
+   border: 1px solid #1E293B;
    width: 300px;
    font-weight: bold;
    height: 30px;
@@ -228,7 +228,7 @@ header > .nav-links > p:hover {
    padding: 0;
    background-color: #6366f1;
    color: #ffffff;
-   border: 1px solid #334155;
+   border: 1px solid #1E293B;
    width: 300px;
    font-weight: bold;
    height: 30px;
@@ -296,7 +296,7 @@ header > .nav-links > p:hover {
    padding: 0;
    background-color: #6366f1;
    color: #ffffff;
-   border: 1px solid #334155;
+   border: 1px solid #1E293B;
    width: 300px;
    font-weight: bold;
    height: 30px;
@@ -367,7 +367,7 @@ header > .nav-links > p:hover {
    padding: 0;
    background-color: #6366f1;
    color: #ffffff;
-   border: 1px solid #334155;
+   border: 1px solid #1E293B;
    width: 300px;
    font-weight: bold;
    height: 30px;
@@ -380,7 +380,7 @@ header > .nav-links > p:hover {
 .company-login-container > p {
     margin: 0;
     padding: 0;
-    color: #334155;
+    color: #ffffff;
     font-size: 18px;
     width: 300px;
 }
@@ -447,7 +447,7 @@ header > .nav-links > p:hover {
 .btns-container > button {
     margin: 0;
     padding: 0;
-    border: 1px solid #334155;
+    border: 1px solid #1E293B;
     background-color: #6366f1;
     color: #ffffff;
     width: 200px;

@@ -3,6 +3,17 @@ import { useNavigate } from "react-router-dom"
 export default function Home() {
     const navigationObj = useNavigate();
 
+    function handleNavigation(type) {
+        if(type === 'worker') {
+            window.localStorage.setItem('user-type', "worker");
+        }
+        else {
+            window.localStorage.setItem('user-type', "company");
+        }
+
+        navigationObj('/login');
+    }
+
     return (
         <div className="home-container">
             <div className="hero-section">
@@ -14,9 +25,9 @@ export default function Home() {
                 </p>
 
                 <div className="btns-container">
-                    <button>Find a job</button>
+                    <button onClick={() => handleNavigation("worker")}>Find a job</button>
 
-                    <button>Post a job</button>
+                    <button onClick={() => handleNavigation("company")}>Post a job</button>
                 </div>
             </div>
 
