@@ -1,6 +1,9 @@
 import { useState } from "react"
+import { useNavigate } from "react-router-dom";
 
 export default function WorkerLogin() {
+    const navigationObj = useNavigate();
+    
     const [workerObj, setWorkerObj] = useState({
         username: '',
         password: ''
@@ -12,6 +15,10 @@ export default function WorkerLogin() {
         setCompanyObj(prev => ({
             [name]: value
         }));
+    }
+
+    function handleAccountCreation() {
+        navigationObj('/create-acc');
     }
 
     return (
@@ -43,6 +50,8 @@ export default function WorkerLogin() {
             <div>
                 <button>LOGIN</button>
             </div>
+
+            <p onClick={() => handleAccountCreation()}>You dont have account? Create one.</p>
         </div>
     )
 }

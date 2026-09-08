@@ -14,6 +14,10 @@ export default function CompanyLogin() {
         }));
     }
 
+    function handleAccountCreation() {
+        navigationObj('/create-acc');
+    }
+
     return (
         <div className="company-login-container">
             <label htmlFor="pib-field">
@@ -43,6 +47,8 @@ export default function CompanyLogin() {
             <div>
                 <button>LOGIN</button>
             </div>
+
+            <p onClick={() => handleAccountCreation()}>You dont have account? Create one.</p>
         </div>
     )
 }

@@ -306,6 +306,18 @@ header > .nav-links > p:hover {
     background-color: #818cf8;
 }
 
+.worker-login-container > p {
+    margin: 0;
+    padding: 0;
+    color: #f1f5f9;
+    font-size: 18px;
+    width: 300px;
+}
+
+.worker-login-container > p:hover {
+    border-bottom: 1px solid #94a3b8;
+}
+
 .company-login-container {
     margin: 0;
     padding: 10px;
@@ -363,6 +375,18 @@ header > .nav-links > p:hover {
 
 .company-login-container > div > button:hover {
     background-color: #818cf8;
+}
+
+.company-login-container > p {
+    margin: 0;
+    padding: 0;
+    color: #334155;
+    font-size: 18px;
+    width: 300px;
+}
+
+.company-login-container > p:hover {
+    border-bottom: 1px solid #94a3b8;
 }
 
 .home-container {
